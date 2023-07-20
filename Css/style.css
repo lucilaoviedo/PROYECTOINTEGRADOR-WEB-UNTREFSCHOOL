@@ -9,6 +9,7 @@
     background-color: #FC7300;
     text-decoration-color: #181823;
     text-transform:uppercase;
+    text-shadow: 1px 1px 1px; 
    
 }
 h2 {
@@ -37,14 +38,18 @@ p {
     color:#EFF5F5;
     opacity: 100%;
     background-color:#1F8A70;
-    , #1F8A70 verde , #00425A azul , #181823 negro,
- 
+    
+    width: 50%;
+    height: auto;
 }
 .col-md-6.mb-md-0.p-md-4
 {
     font-family: font-family: 'Belanosima';
     background-color: #1F8A70;
     opacity: 100%;
+    width: 50%;
+    height: auto;
+    
 }
 
 .headerinferior {
@@ -54,6 +59,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 768px
 }
 .titulo {
     width:100%;
@@ -63,42 +69,78 @@ p {
     font-size: 1.8rem;
     text-transform: uppercase;
     background-color: var(--color-fuente);
+
 }
 footer   {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 1.1rem;
+    font-size: 1rem;
     background-color: #181823;
+    
+   
 }
 footer h3  {
     color: #EFF5F5;
-    text-align: center;
+    text-align:center;
+    width: 70%;
+    height: auto;
+    max-height: 400px;
+    display: block;
+ 
+
+   
   }
 
   footer div  {
     color: #EFF5F5;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    display: block;
+
+   
+  }
+  footer li {
+    color: #EFF5F5;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    display: block;
+text-align:justify;
+font-family: 'Poppins', sans-serif; 
+  }
+  footer i  {
+    color: #EFF5F5;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    display: block;
+text-align:justify;
+font-family: 'Poppins', sans-serif; 
+  }
+  .mapa  {
+    
+    width: 70%;
+  
   }
 
-  li {
-    list-style-type: none;
-  }
-nav  {
+
+  nav  {
     font-family: 'Poppins', sans-serif; 
     color: var(--color-titulos);
     padding-bottom: 1rem;
     text-align: center;
-}
-.banner {
-    width: 50%;
-    max-height: 20px ; /* Ajusta el valor para cambiar la altura del banner */
-    overflow: hidden;
+    margin: 1em;
+
   }
   .carousel img {
     width: 100%;
-    height: 400px;
+    height: auto;
     max-height: 400px;
-    display: block;}
+    display: block;
+    margin: 3px;
+   }
 
     a.navbar-brand  {
     color:  #FC7300;}
@@ -114,3 +156,25 @@ a.nav-link  {
     ::backdrop {
         color:  #FC7300;}
        
+        a.nav-link.active
+        {
+            color:  #FC7300;}
+
+       form    h1 {
+  text-align: center;
+  margin: 35px 0 20px 0 ;
+}
+.btn.btn-lg.btn-dark.btn-block{
+    background-color: #EFF5F5;
+    color:#181823;
+    width: 100%;
+    height: auto;
+   
+  }
+  header img {
+    width: 30%;
+    height: auto
+    margin: 1em;
+
+  }
+
