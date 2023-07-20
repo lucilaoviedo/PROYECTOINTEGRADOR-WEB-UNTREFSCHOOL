@@ -1,1 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+
+ h1 {
+  
+    font-family: 'Poppins', sans-serif; 
+    text-align: center;
+    background-color: #FC7300;
+    text-decoration-color: #181823;
+    text-transform:uppercase;
+   
+}
+h2 {
+font-family: 'Poppins', sans-serif; 
+   padding-bottom: 1rem;
+    text-align: center;
+
+}
+h3 {
+    font-family: 'Poppins', sans-serif; 
+    
+}
+h5 {
+    text-align: center;
+}
+p {
+    font-family: 'Poppins', sans-serif; 
+    color: #EFF5F5;
+    opacity: 90%;
+    text-align: center;
+
+}
+.col-md-6.p-4.ps-md-0
+{
+    font-family: 'Poppins', sans-serif; 
+    color:#EFF5F5;
+    opacity: 100%;
+    background-color:#1F8A70;
+    , #1F8A70 verde , #00425A azul , #181823 negro,
+ 
+}
+.col-md-6.mb-md-0.p-md-4
+{
+    font-family: font-family: 'Belanosima';
+    background-color: #1F8A70;
+    opacity: 100%;
+}
+
+.headerinferior {
+    height: 25rem;
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo {
+    width:100%;
+    display: inline-block;
+    color: var(--color-textohyf);
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    background-color: var(--color-fuente);
+}
+footer   {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    background-color: #181823;
+}
+footer h3  {
+    color: #EFF5F5;
+    text-align: center;
+  }
+
+  footer div  {
+    color: #EFF5F5;
+  }
+
+  li {
+    list-style-type: none;
+  }
+nav  {
+    font-family: 'Poppins', sans-serif; 
+    color: var(--color-titulos);
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.banner {
+    width: 50%;
+    max-height: 20px ; /* Ajusta el valor para cambiar la altura del banner */
+    overflow: hidden;
+  }
+  .carousel img {
+    width: 100%;
+    height: 400px;
+    max-height: 400px;
+    display: block;}
+
+    a.navbar-brand  {
+    color:  #FC7300;}
+    ::backdrop {
+        color:  #FC7300;}
+        
+        .navbarNav {
+    color:  #753f12;}
+    ::backdrop {
+        color:  #FC7300;}
+a.nav-link  {
+    color:  #FC7300;}
+    ::backdrop {
+        color:  #FC7300;}
+       
